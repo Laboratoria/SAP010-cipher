@@ -3,12 +3,41 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+ </head>
+   
+ 
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+
+    <main class="box">
+
+     <h1>Cadastro 2/3 </h1>
+
+     <h2> Crie aqui uma senha para ser codificada antes de concluir o cadastro,<br> utilize apenas o alfabeto simplificado (apenas letras maiúsculas).<p>Lembre-se de selecionar a chave, para definir a quantidade<br> de criptografia na sua senha<p></p></h2>  
+  
+
+       <label for=" mensagem" class="titulo-mensagem"><h3>Digite a sua senha </h3></label>
+       <imput type="text" id="mensagem"><br><br>
+
+       <label for=" chave" class="titulo-chave"><h3>selecione a chave</h3></label>
+       <imput type="number" id="chave" min="1" max="25"><br><br>
+      
+       <button onclick="cifrar()">Cifrar</button>
+       <button onclick="decifrar()">Decifrar</button><br><br>
+       
+       <label for="resultado">Resultado:</label>
+       <imput type="text" id="resultado" disabled>
+    
+      
+     <h4>Para saber mais sobre a criptografia utilizada para este cadastro</h4>
+      <a href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar" target="_blank"><button type="submit"> 👉 Clique aqui </button>
+
+    </main>
+
     <script src="index.js" type="module"></script>
+
+    <footer> Desenvolvido por Aline Ferreira</footer>
+
   </body>
+
 </html>
