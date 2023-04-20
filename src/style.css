@@ -1,0 +1,27 @@
+*{
+    background-color: rgb(211, 211, 234);
+
+}
+
+
+*h1 {
+
+    text-align: left;
+    padding: 50px 0 15px;
+    color: black;
+    font-family: "helvetica";
+}
+
+.box {
+
+    text-align: right;
+    margin: 50px;
+}
+
+footer {
+    background-color: #080808f8;
+    color: rgb(250, 251, 251);
+    margin-top:130px;
+    text-align: center;
+    line-height: 40px;
+  }
