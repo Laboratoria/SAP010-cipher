@@ -15,6 +15,9 @@ tipo de cifra por substituição, em que cada letra do texto original é
 substituida por outra que se encontra há um número fixo de posições
 (deslocamento) mais a frente do mesmo alfabeto.
 
+Classificada como monoalfabética (por possuir apenas um alfabeto) e monogâmica
+(possui o mesmo numero de caracteres após o codigo ser cifrado).
+
 
 ## 2. Resumo do projeto
 
