@@ -13,6 +13,9 @@
 O projeto tem como base implementar a técnica cifra de César, simulando uma situação da vida real, que seja necessário cifrar uma mensagem.
 
 
+Classificada como monoalfabética (por possuir apenas um alfabeto) e monogâmica
+(possui o mesmo numero de caracteres após o codigo ser cifrado).
+
 
 ## 2. Resumo do projeto
 
