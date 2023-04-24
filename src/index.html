@@ -6,9 +6,38 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+    <div id="root" style="text-align: center;">
+      <div id="root">
+        <div class="header">
+          <h1>Secret Cipher</h1>
+          <h2>CODIFIQUE E MANTENHA SEUS SEGREDOS ESCONDIDOS</h2>
+        </div>
+        <div class="inputs-container">
+          <div class="input">
+            <p>INSIRA AQUI O SEU SEGREDO</p>
+            <div class="textarea">
+              <textarea id="textoInput" maxlength="800" cols="40" rows="20"></textarea>
+            </div>
+          </div>
+          <div class="output">
+            <p>ESTE É O SEU SEGREDO CODIFICADO/DECODIFICADO</p>
+            <div class="textarea">
+              <textarea id="textoOutput" readonly cols="40" rows="20"></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="deslocamento">
+          <p>insira o número da sua chave</p>
+          <input type="number" id="deslocamento" min="1" value="0">
+        </div>
+        <div class="buttons">
+          <button id="codificarBtn">Codificar</button>
+          <button id="decodificarBtn">Decodificar</button>
+        </div>
+        <footer>
+          <p>Desenvolvido por <a href="https://github.com/laridepaula">Larissa de Paula</a></p>
+        </footer>
+      </div>
     <script src="index.js" type="module"></script>
   </body>
 </html>

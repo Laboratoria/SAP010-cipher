@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&family=Satisfy&display=swap');
+
+/* Configurações gerais */
+body {
+  font-family: 'Signika Negative', sans-serif;
+  background-image: url("v1013-p-0009a.jpg");
+  background-repeat:no-repeat;
+  margin: 0;
+}
+
+/* Header */
+.header {
+  background-color: #0f92cf;
+  padding: 20px 0;
+}
+
+.header h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 58px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #b400cc;
+  text-shadow: 1px 1px #4f00521f;
+}
+
+.header h2 {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-shadow: 1px 1px #00000057;
+}
+
+/* Inputs e Outputs */
+.input, .output {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  position: relative;
+  border-radius: 20px;
+  background-color: #b773cad8;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.input p, .output p {
+  font-size: 20px;
+  margin-top: 0;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Deslocamento */
+.deslocamento {
+  display: inline-block;
+  width: 25%;
+  margin-top: 20px;
+  vertical-align: top;
+}
+
+.deslocamento p {
+  font-size: 18px;
+  margin-top: 0;
+  color: #8d6dd1;
+}
+
+.deslocamento input[type="number"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-family: inherit;
+  border-radius: 20px;
+  background-color: #fff897;
+  color: #9d26ff;
+  border: none;
+}
+
+/* Botões */
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #fff897;
+  color: #9d26ff;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.buttons button:hover {
+  background-color: #b7a1cf;
+}
+
+/* Textarea */
+textarea {
+  border: 3px solid #FF69B4;
+  background-color: #f2e7ff;
+  border-radius: 20px;
+  height: 400px; 
+  width: 300px; 
+  resize: none; 
+  padding: 20px;
+  margin-top: 20px;
+  color: #fff;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Footer */
+footer {
+  background-color: #FF69B4;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
