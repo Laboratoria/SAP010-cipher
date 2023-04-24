@@ -19,7 +19,7 @@ Classificada como monoalfabética (por possuir apenas um alfabeto) e monogâmica
 
 ## 2. Resumo do projeto
 
-<h1>Produto:<h1> 
+Produto:
 
  Plataforma de assinatura eletronica e digital
 
@@ -42,7 +42,7 @@ Programas utilizados:
 
 Funcionalidades: 
 
--Cliente pode utilizar letras maiúsculas e minúsculas 
+- Cliente pode utilizar letras maiúsculas e minúsculas 
 - Selecionar a chave para definir o intervalo a ser criptografado 
 - Função de decifrar, caso esqueça a senha que havia gerado 
 
@@ -50,6 +50,9 @@ Funcionalidades:
 O produto criado está resolvendo os problemas?:
 
 Sim, após a inclusão de senhas codificadas na plataforma, os índices de ataques cibernéticos e roubo de senhas reduziram 70% ao longo do período de testes e do qual estamos trabalhando em melhorias continuas pois conforme dados da Global Risks Report (https://www.weforum.org/reports/global-risks-report-2023/data-on-global-risk-perceptions-2023) apontam, o cybercrime e cyber insecurity está entre os 10 tópicos mundiais abordados. 
+
+
+Browser: http://127.0.0.1:5500/src/index.html
 
 
 
