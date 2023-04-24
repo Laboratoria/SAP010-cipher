@@ -1,43 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" type="text/css" />
- </head>
-   
- 
-  <body>
+
+    <head>
+     <meta charset='utf-8'>
+     <meta name="viewport" content="width=device-width">
+     <title>Click Cesar</title>
+     <link rel="stylesheet" href="style.css" type="text/css">
+     <link rel="icon" href="img/cc-aba.jpeg">
+    </head>
+
+  <body> 
+
+      
+    <div class="caixa">
+
+      <div class="container">
+       <img class="logo"  src="./img/cc-w.jpeg">
+       <h1>ASSINATURA ELETRÔNICA E DIGITAL <p>Envie documentos para assinatura online com validade jurídica, com ou sem certificado digital</h1><p></p>
+      </div>
+
+     <a> Para Você</a>
+     <a> Para sua Empresa</a>
+     <a> Soluções</a>
+     <a> Dúvidas</a>
+     <a> Cadastre-se</a>
+     <a> Contato</a>
+     <a> login</a>
+
+    </div>
+      
+    <img class="cc-p" src="./img/cc-p.jpeg">
+
 
     <main class="box">
+        
+     <h2>Cadastro - Etapa 2/3</h2>
+     <h3> Crie aqui uma senha para ser codificada antes de concluir o cadastro, utilize<br> apenas letras maiúsculas e minusculas neste processo.<p>Lembre-se de selecionar a chave, para definir a quantidade<br> de criptografia na sua senha<p></p></h3>  
 
-     <h1>Cadastro 2/3 </h1>
 
-     <h2> Crie aqui uma senha para ser codificada antes de concluir o cadastro,<br> utilize apenas o alfabeto simplificado (apenas letras maiúsculas).<p>Lembre-se de selecionar a chave, para definir a quantidade<br> de criptografia na sua senha<p></p></h2>  
-  
+     <label for="mensagem" class="titulo-mensagem"><h3>Digite a sua Senha:</h3></label>
+     <input type="text" id="mensagem"><br><br>
 
-       <label for=" mensagem" class="titulo-mensagem"><h3>Digite a sua senha </h3></label>
-       <imput type="text" id="mensagem"><br><br>
+     <label for="chave" class="titulo-chave">Chave </label>
+     <input type="number" id="chave" min="1" max="25"><br><br>
 
-       <label for=" chave" class="titulo-chave"><h3>selecione a chave</h3></label>
-       <imput type="number" id="chave" min="1" max="25"><br><br>
-      
-       <button onclick="cifrar()">Cifrar</button>
-       <button onclick="decifrar()">Decifrar</button><br><br>
-       
-       <label for="resultado">Resultado:</label>
-       <imput type="text" id="resultado" disabled>
-    
-      
-     <h4>Para saber mais sobre a criptografia utilizada para este cadastro</h4>
+	   <button onclick="cifrar()">Cifrar</button>
+     <button onclick="decifrar()">Decifrar</button><br><br>
+
+	   <label for="resultado">Resultado:</label>
+	   <input type="text" id="resultado" disabled>
+
+
+      <h4>Para concluir o cadastro</h4>
       <a href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar" target="_blank"><button type="submit"> 👉 Clique aqui </button>
+	
+   </main>
 
-    </main>
+        
+        
+   <script src="index.js"></script>
 
-    <script src="index.js" type="module"></script>
+  
+ 
 
     <footer> Desenvolvido por Aline Ferreira</footer>
-
+    
+    
   </body>
 
-</html>
+</html>     
+
+

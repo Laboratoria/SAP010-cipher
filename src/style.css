@@ -1,27 +1,79 @@
-*{
-    background-color: rgb(211, 211, 234);
-
+* {
+    margin: 5px;
 }
 
+*{
+    background-color: rgb(235, 235, 248); 
+}
 
-*h1 {
+.container {
+    display: flex;
+    justify-content: center; /* alinhar horizontalmente */
+    align-items: center; /* alinhar verticalmente */
+}
 
-    text-align: left;
-    padding: 50px 0 15px;
+h1 {
+    text-align: center;
+    margin: 60px;
+    display: inline-block;
+    margin-left: 50px;
+    font-family:Open Sans, Helvetica, Arial, sans-serif;
+    color: rgb(57, 55, 55);
+    
+}
+
+.logo {
+    width:180px;
+    margin-left: 50px;
+    border-radius: 100px;
+    border:solid 1px;
+    box-shadow: 21px -7px rgb(71, 69, 69);
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.caixa{
+ padding: 1px; /*espaço entre as coisas do cabeçalho*/
+ border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+a {
     color: black;
-    font-family: "helvetica";
+    margin-left: 65px;
+    font-size: 20px;
+    cursor:pointer;
+    
+}
+
+/*hover - evento para quando o mouse passar por cima do texto selecionado <a>*/
+a:hover {
+    text-decoration: underline;
+}
+
+.cc-p {
+ width: 500px;
+ height: 450px;
+ margin-top: 15px;
+ display: inline-block;
+ border-right: 2px solid black; 
+}
+
+body {
+    font-weight: lighter;color:black;
 }
 
 .box {
-
-    text-align: right;
-    margin: 50px;
+    text-align: center;
+    margin: 20px;
+    cursor:pointer; /*mãozinha do mouse*/
+    display: inline-block;  
 }
 
 footer {
-    background-color: #080808f8;
-    color: rgb(250, 251, 251);
-    margin-top:130px;
+    background-color: #474545f8;
+    color: rgb(0, 0, 0);
+    margin-top: 1px;
     text-align: center;
-    line-height: 40px;
-  }
+    line-height: 50px;
+
+}

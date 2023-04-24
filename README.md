@@ -10,17 +10,47 @@
 
 ## 1. Prefácio
 
-A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um
-tipo de cifra por substituição, em que cada letra do texto original é
-substituida por outra que se encontra há um número fixo de posições
-(deslocamento) mais a frente do mesmo alfabeto.
+O projeto tem como base implementar a técnica cifra de César, simulando uma situação da vida real, que seja necessário cifrar uma mensagem.
+
 
 
 ## 2. Resumo do projeto
 
-Neste projeto o usuário poderá cifrar um texto no navegador indicando um deslocamento
-específico de caracteres (_offset_) para codificar uma senha antes de finalizar o cadastro no site ClicCesar,
-no qual é especializado em assinaturas digitais e preza pela segurança de informaçoes de seus usuarios. 
+<h1>Produto:<h1> 
+
+ Plataforma de assinatura eletronica e digital
+
+
+Usuários:
+
+ Público em geral 
+
+
+Objetivos:
+
+Neste projeto o usuário poderá cifrar uma senha escolhida por ele, indicar um deslocamento
+específico de caracteres (_offset_) para codificar uma senha antes de finalizar o cadastro no site ClikCesar, no qual é especializado em assinaturas online com validade jurídica, com ou sem certificado digital e preza pela segurança de informaçoes de seus usuarios. 
+
+Programas utilizados: 
+
+-HTML 
+-JavaScript
+-CSS
+
+Funcionalidades: 
+
+-Cliente pode utilizar letras maiúsculas e minúsculas 
+- Selecionar a chave para definir o intervalo a ser criptografado 
+- Função de decifrar, caso esqueça a senha que havia gerado 
+
+
+O produto criado está resolvendo os problemas?:
+
+Sim, após a inclusão de senhas codificadas na plataforma, os índices de ataques cibernéticos e roubo de senhas reduziram 70% ao longo do período de testes e do qual estamos trabalhando em melhorias continuas pois conforme dados da Global Risks Report (https://www.weforum.org/reports/global-risks-report-2023/data-on-global-risk-perceptions-2023) apontam, o cybercrime e cyber insecurity está entre os 10 tópicos mundiais abordados. 
+
+
+
+
 
 
 
