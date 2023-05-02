@@ -4,13 +4,13 @@
 body {
   font-family: 'Signika Negative', sans-serif;
   background-image: url("v1013-p-0009a.jpg");
-  background-repeat:no-repeat;
+  background-size:contain;
   margin: 0;
 }
 
 /* Header */
 .header {
-  background-color: #0f92cf;
+  background-color: #11ABB5;
   padding: 20px 0;
 }
 
@@ -20,8 +20,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-  color: #b400cc;
-  text-shadow: 1px 1px #4f00521f;
+  color: #ffffff;
 }
 
 .header h2 {
@@ -29,20 +28,20 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-  color: #fff;
-  text-shadow: 1px 1px #00000057;
+  color: #ffffff;
 }
 
 /* Inputs e Outputs */
 .input, .output {
   display: inline-block;
-  width: 30%;
+  width: 27%;
   vertical-align: top;
   position: relative;
-  border-radius: 20px;
-  background-color: #b773cad8;
+  border-radius: 7px;
+  background-color: #eebcf6dc ;
   padding: 20px;
   margin-top: 20px;
+  margin-inline: 30px;
 }
 
 .input p, .output p {
@@ -63,18 +62,19 @@ body {
 .deslocamento p {
   font-size: 18px;
   margin-top: 0;
-  color: #8d6dd1;
+  color: #DA6AA0;
 }
 
 .deslocamento input[type="number"] {
-  display: block;
-  width: 100%;
+  display: inline-block;
+  width: 50%;
   padding: 10px;
   font-size: 16px;
   font-family: inherit;
+  text-align: center;
   border-radius: 20px;
-  background-color: #fff897;
-  color: #9d26ff;
+  background-color: #F9EF9C;
+  color: #DA6AA0;
   border: none;
 }
 
@@ -88,8 +88,8 @@ body {
 .buttons button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #fff897;
-  color: #9d26ff;
+  background-color: #F9EF9C;
+  color: #DA6AA0;
   border: none;
   cursor: pointer;
   border-radius: 20px;
@@ -102,23 +102,37 @@ body {
 
 /* Textarea */
 textarea {
-  border: 3px solid #FF69B4;
-  background-color: #f2e7ff;
-  border-radius: 20px;
+  border: none;
+  background-color: #FFFCEF;
+  border-radius: 7px;
   height: 400px; 
   width: 300px; 
   resize: none; 
   padding: 20px;
   margin-top: 20px;
-  color: #fff;
+  color: #250725;
   font-family: 'Signika Negative', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
+  text-transform: uppercase;
   line-height: 1.5;
+  animation: myAnim 1s ease 0s 1 normal none;
+  
 }
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
 
 /* Footer */
 footer {
-  background-color: #FF69B4;
+  background-color: #DA6AA0;
   color: #fff;
   text-align: center;
   margin-top: 20px;
