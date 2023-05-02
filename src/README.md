@@ -1,32 +1,125 @@
-Secret Cipher - README
+# Cifra de César
+
+## Índice
+
+* [1. Prefácio](#1-prefácio)
+* [2. Resumo do projeto](#2-resumo-do-projeto)
+* [3. Protótipo](#3-protótipo)
+* [4. Usuários e Necessidades do usuário](#4-usuários-e-necessidades-do-usuário)
+* [5. Instruções de uso](#5-instruções-de-uso)
+* [6. Produto final e Objetivos alcançados](#6-produto-final-e-objetivos-alcançados)
+* [7. Acesse o Secret Cipher](https://laridepaula.github.io/SAP010-cipher/)
+
+***
+
+## 1. Prefácio
+
+O projeto em questão é um aplicativo de desenvolvimento web criado como parte 
+do bootcamp da Laboratória, que utiliza técnicas de criptografia para cifrar e 
+decifrar mensagens. Mais especificamente, o aplicativo utiliza a cifra de César, 
+uma das técnicas mais simples de cifragem de mensagens.
+
+A cifra de César é uma cifra por substituição em que cada letra do texto original
+é substituída por outra que se encontra a um número fixo de posições (deslocamento) 
+mais à frente no mesmo alfabeto. Por exemplo, se o usuário indicar um deslocamento
+de 10 posições, a palavra "CODIFICAR" seria cifrada como "MYNSPSMKB".
+
+Para criar o aplicativo, foram utilizadas as linguagens HTML, CSS e JavaScript. 
+Ao acessar o aplicativo no navegador, o usuário pode digitar um texto e escolher 
+um deslocamento específico de caracteres para cifrar ou decifrar a mensagem. 
+Com essa funcionalidade, o aplicativo proporciona uma ferramenta simples e eficaz 
+de comunicação segura, permitindo que os usuários enviem mensagens criptografadas 
+que só podem ser lidas por aqueles que conhecem o deslocamento utilizado para 
+cifrar a mensagem.
+
+Acesse o [Secret Cipher](https://laridepaula.github.io/SAP010-cipher/)
 
 
-Definição do produto
+## 2. Resumo do projeto
 
-O Secret Cipher é uma ferramenta que permite ao usuário codificar e decodificar mensagens secretas. A ferramenta foi inspirada nos diários que costumávamos escrever na adolescência, com um layout meigo e intuitivo.
+O [Secret Cipher](https://laridepaula.github.io/SAP010-cipher/) é uma aplicação web que permite a codificação e decodificação
+de mensagens secretas, inspirado em diários da época da adolescência e 
+revistas teen, com uma temática em tons pastéis, como se estivéssemos voltando 
+aos anos 2000.
 
-Usuários
+O usuário pode inserir o texto que deseja codificar ou decodificar e um número 
+para ser usado como chave, que determina a quantidade de deslocamento das letras. 
+O resultado é exibido em um campo de texto.
 
-O público-alvo do Secret Cipher são pessoas que desejam manter suas mensagens em segredo, seja por diversão ou por necessidade de privacidade. É ideal para adolescentes que querem manter seus segredos longe dos pais, para amigos que querem trocar mensagens enigmáticas ou para profissionais que precisam trocar informações confidenciais.
+### Os objetivos gerais deste projeto são os seguintes
 
-Objetivos dos usuários
+* Trabalhar com base em um boilerplate, a estrutura básica de um projeto em diferentes
+  pastas (através de módulos em JS).
+* Conhecer as ferramentas de manutenção e melhoria do código (linters e testes
+  unitários).
+* Aprender sobre objetos, estruturas, métodos e iteração (loops) em JavaScript
+* Implementar controle de versão com git (e a plataforma github)
 
-O objetivo principal dos usuários do Secret Cipher é manter suas mensagens em segredo. Eles desejam ter uma ferramenta fácil e prática de usar para codificar e decodificar suas mensagens, sem que outras pessoas possam ler.
+## 3. Protótipo
 
-Solução
+O layout foi projetado para ser intuitivo e objetivo, com uma tematica que remete os 
+diarios da época da adolescencia nos anos 2000, com cores pasteis, e uma paleta 
+em tons de azul, amarelo e rosa.
 
-O Secret Cipher oferece uma solução prática e eficiente para codificar e decodificar mensagens secretas. Com uma interface intuitiva e agradável, o usuário pode inserir sua mensagem, escolher o número da chave de codificação e selecionar se deseja codificar ou decodificar a mensagem. Em poucos segundos, a mensagem é codificada ou decodificada e pode ser enviada para o destinatário sem medo de ser interceptada.
+ ![arte prototipo](figma.png)
 
-Além disso, o Secret Cipher é seguro e confiável, pois utiliza a cifra de César, um dos métodos de criptografia mais antigos e seguros. Dessa forma, o usuário pode ficar tranquilo em relação à privacidade de suas mensagens.
+## 4. Usuários e Necessidades do usuário
 
-Processo de desenvolvimento
+Os principais usuários do Secret Cipher são pessoas que buscam uma solução segura e 
+prática para compartilhar mensagens confidenciais, como amigos, familiares e 
+colegas de trabalho. Esses usuários podem incluir adolescentes que desejam manter 
+segredos de seus pais ou professores, ou adultos que precisam proteger informações 
+confidenciais de terceiros não autorizados.
 
-Para desenvolver o Secret Cipher, foi pensado em uma interface meiga e intuitiva, com cores pastel e elementos que lembram diários de adolescência. A escolha da cifra de César como método de criptografia foi feita por ser uma técnica segura e confiável, além de ser simples o suficiente para ser implementada em um projeto de pequeno porte.
+O objetivo desses usuários ao usar o Secret Cipher é garantir a privacidade e a 
+segurança das mensagens que compartilham. Eles desejam uma maneira fácil e 
+eficiente de codificar e decodificar mensagens secretas, sem correr o risco 
+de ter seu conteúdo acessado por outras pessoas. Além disso, eles podem estar 
+interessados em manter um certo grau de anonimato em relação ao conteúdo que 
+compartilham, garantindo que apenas o destinatário pretendido tenha acesso 
+às informações transmitidas.
 
-A ferramenta foi desenvolvida em HTML, CSS e JavaScript, implementando o algoritmo na biblioteca cipher.js, que realiza a codificação e decodificação da mensagem.
+## 5. Instruções de uso
 
-Como usar
+Para usar o Secret Cipher, basta inserir a mensagem no campo "ESCREVA AQUI O SEU SEGREDO", 
+escolher o número da chave de codificação no campo "insira o número da sua chave" e 
+selecionar se deseja codificar ou decodificar a mensagem clicando nos botões "Codificar" 
+ou "Decodificar". 
+A mensagem codificada/decodificada será exibida no campo 
+"ESTE É O SEU SEGREDO CODIFICADO/DECODIFICADO".
 
-Para usar o Secret Cipher, basta inserir a mensagem no campo "ESCREVA AQUI O SEU SEGREDO", escolher o número da chave de codificação no campo "insira o número da sua chave" e selecionar se deseja codificar ou decodificar a mensagem clicando nos botões "Codificar" ou "Decodificar". A mensagem codificada/decodificada será exibida no campo "ESTE É O SEU SEGREDO CODIFICADO/DECODIFICADO".
+Lembrando sempre de guardar o número da chave de codificação em segredo, pois só com 
+essa informação será possível decodificar a mensagem.
 
-Lembre-se de guardar o número da chave de codificação em segredo, pois só com essa informação será possível decodificar a mensagem.
+
+## 6. Produto final e Objetivos alcançados
+
+O projeto "Secret Cipher" trata-se de um site que permite codificar e decodificar 
+mensagens, usando a Cifra de César. O usuário insere o texto e o número da chave de 
+deslocamento, e o site retorna o texto codificado ou decodificado.
+
+Para definir o produto final em termos de experiência e interface, foram c
+onsideradas as referências estéticas da época, como fontes cursivas e cores em tons pasteis, 
+para criar uma atmosfera de nostalgia. Foi dada atenção especial à usabilidade, 
+para que a ferramenta fosse fácil e intuitiva de usar, com instruções claras 
+e campos de entrada e saída bem definidos.
+
+O código fonte consiste em um objeto "cipher" com os métodos "encode" e "decode", 
+que realizam a codificação e decodificação da mensagem, respectivamente. 
+O site em si é construído usando HTML, CSS e JavaScript. 
+O HTML define a estrutura do site, o CSS controla a aparência e o layout e o 
+JavaScript manipula o conteúdo dinâmico, como a entrada de texto e a exibição do resultado. 
+
+![tela](tela.png)
+
+
+[✔] Possui uma interface que possibilita criptografar e descriptografar.
+
+[✔] Permite ao usuário escolher o número de deslocamento.
+
+[✔] Aceitação de letras maiúsculas e minusculas.
+
+[✔] Os caracteres especiais são mantidos.
+
+[✔] Testes unitários dos métodos cipher (encode e decode).
+

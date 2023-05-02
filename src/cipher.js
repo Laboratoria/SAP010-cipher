@@ -11,7 +11,9 @@ const cipher = {
           const codigo = texto.charCodeAt(i);
           if (codigo >= 65 && codigo <= 90) {
             caracter = String.fromCharCode(((codigo - 65 + deslocamento) % 26) + 65);
-          } 
+          } else if (codigo >= 97 && codigo <= 122) {
+            caracter = String.fromCharCode(((codigo - 97 + deslocamento) % 26) + 97);
+          }
         }
         codificado += caracter;
       }
@@ -35,7 +37,13 @@ const cipher = {
               resultado += 26;
             }
             caracter = String.fromCharCode((resultado % 26) + 65)
-          } 
+          } else if (codigo >= 97 && codigo <= 122) {
+            let resultado = codigo - 97 - deslocamento;
+            while (resultado < 0) {
+              resultado += 26;
+            }
+            caracter = String.fromCharCode((resultado % 26) + 97);
+          }
         }
         decodificado += caracter;
       }
@@ -45,5 +53,4 @@ const cipher = {
   }
 
 }
-
 export default cipher;

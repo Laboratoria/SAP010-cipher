@@ -102,7 +102,7 @@ body {
 
 /* Textarea */
 textarea {
-  border: none;
+  border-left: 10px dotted #13939c;
   background-color: #FFFCEF;
   border-radius: 7px;
   height: 400px; 
@@ -110,10 +110,9 @@ textarea {
   resize: none; 
   padding: 20px;
   margin-top: 20px;
-  color: #250725;
+  color: #3f003f;
   font-family: 'Signika Negative', sans-serif;
   font-size: 20px;
-  text-transform: uppercase;
   line-height: 1.5;
   animation: myAnim 1s ease 0s 1 normal none;
   
