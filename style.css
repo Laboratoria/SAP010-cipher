@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&family=Satisfy&display=swap');
+
+/* Configurações gerais */
+body {
+  font-family: 'Signika Negative', sans-serif;
+  background-image: url("v1013-p-0009a.jpg");
+  background-size:contain;
+  margin: 0;
+}
+
+/* Header */
+.header {
+  background-color: #11ABB5;
+  padding: 20px 0;
+}
+
+.header h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 58px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+.header h2 {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+/* Inputs e Outputs */
+.input, .output {
+  display: inline-block;
+  width: 27%;
+  vertical-align: top;
+  position: relative;
+  border-radius: 7px;
+  background-color: #eebcf6dc ;
+  padding: 20px;
+  margin-top: 20px;
+  margin-inline: 30px;
+}
+
+.input p, .output p {
+  font-size: 20px;
+  margin-top: 0;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Deslocamento */
+.deslocamento {
+  display: inline-block;
+  width: 25%;
+  margin-top: 20px;
+  vertical-align: top;
+}
+
+.deslocamento p {
+  font-size: 18px;
+  margin-top: 0;
+  color: #DA6AA0;
+}
+
+.deslocamento input[type="number"] {
+  display: inline-block;
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  font-family: inherit;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #F9EF9C;
+  color: #DA6AA0;
+  border: none;
+}
+
+/* Botões */
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #F9EF9C;
+  color: #DA6AA0;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.buttons button:hover {
+  background-color: #b7a1cf;
+}
+
+/* Textarea */
+textarea {
+  border-left: 10px dotted #13939c;
+  background-color: #FFFCEF;
+  border-radius: 7px;
+  height: 400px; 
+  width: 300px; 
+  resize: none; 
+  padding: 20px;
+  margin-top: 20px;
+  color: #3f003f;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  animation: myAnim 1s ease 0s 1 normal none;
+  
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/* Footer */
+footer {
+  background-color: #DA6AA0;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
